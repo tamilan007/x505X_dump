@@ -37,3 +37,11 @@ ro.bootimage.build.date=Sat Jul 18 06:02:14 CST 2020
 ro.bootimage.build.date.utc=1595023334
 ro.bootimage.build.fingerprint=Lenovo/TB-X505X/TB-X505X:9/PKQ1.181218.001/X505X_S001037_200718_ROW:user/release-keys
 persist.sys.usb.config=none
+
+
+Can i add this in my build prop to enable bootsound???
+ro.config.power_on=boot.wav
+
+ro.config.power_off=shutdown.wav
+
+persist.sys.bootanim.play_sound=true
